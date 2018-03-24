@@ -9,14 +9,19 @@ extern crate cortex_m;
 extern crate cortex_m_rt;
 extern crate cortex_m_semihosting;
 
+extern crate vcell;
+
 use core::fmt::Write;
 
 use cortex_m::asm;
 use cortex_m_semihosting::hio;
 
+
+
 fn main() {
     let mut stdout = hio::hstdout().unwrap();
-    writeln!(stdout, "Hello, world!").unwrap();
+
+    writeln!(stdout, "coucou");
 }
 
 // As we are not using interrupts, we just register a dummy catch all handler
