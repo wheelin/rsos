@@ -1,9 +1,9 @@
 [package]
 categories = ["embedded", "no-std"]
-description = "Raw pointer register access"
+description = "Rust scheduler for cortex m3"
 keywords = ["arm", "cortex-m", "template"]
 license = "MIT OR Apache-2.0"
-name = "register_access_tests"
+name = "rsos"
 version = "0.1.0"
 
 [dependencies]
